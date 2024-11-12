@@ -5,7 +5,7 @@ export default function Header() {
 	return (
 		<header>
 			<div className="bg-[#FF5722] w-[500px] h-[500px] absolute -translate-x-1/2 -translate-y-1/3 rounded-full opacity-50 blur-[500px]"></div>
-			<div className="max-w-screen-xl mx-auto px-4 py-8 flex items-center justify-between">
+			<div className="container 2xl:max-w-screen-xl py-8 flex items-center justify-between">
 				<a href="#">
 					<figure>
 						<img src={vromonLogo} alt="Vromon Logo" />

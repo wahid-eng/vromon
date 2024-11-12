@@ -8,6 +8,12 @@ export default {
 			fontFamily: {
 				sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
 			},
+			container: {
+				center: true,
+				padding: {
+					DEFAULT: '1rem',
+				},
+			},
 		},
 	},
 	plugins: [],

@@ -8,7 +8,7 @@ import heroThumb3 from '../../assets/images/hero-thumb-3.png';
 export default function Hero() {
 	return (
 		<div className="container 2xl:max-w-screen-xl py-8 flex flex-col-reverse lg:flex-row items-center justify-between">
-			<div className="grid gap-y-11 lg:w-4/12 -mt-28 lg:-mt-0 z-10">
+			<div className="grid gap-y-11 lg:w-5/12 -mt-28 lg:-mt-0 z-10">
 				<Badge className="bg-white shadow-pink-100 w-64">
 					<span className="text-pink-500">Explore the world!</span>
 					<svg
@@ -36,7 +36,7 @@ export default function Hero() {
 				</p>
 				<div className="flex gap-4">
 					<Button>Get Started</Button>
-					<Button className="bg-white text-violet-700 border-violet-100">
+					<Button className="bg-white !text-violet-700 border-violet-100">
 						<svg
 							width="24"
 							height="25"
@@ -57,7 +57,7 @@ export default function Hero() {
 				<img
 					src={heroBg}
 					alt="Hero Background"
-					className="lg:absolute lg:top-0 lg:left-1/2 lg:-translate-x-1/2 lg:-z-10 max-w-sm md:max-w-md"
+					className="lg:absolute lg:top-0 lg:left-1/2 lg:-translate-x-1/2 lg:-z-10 max-w-sm md:max-w-md lg:max-w-full"
 				/>
 				<div className="items-center justify-center gap-8 hidden lg:flex">
 					<div className="flex flex-col gap-8">
@@ -66,7 +66,7 @@ export default function Hero() {
 					</div>
 					<img src={heroThumb3} alt="Hero Thumb 3" className="rounded-3xl" />
 				</div>
-				<Badge className="bg-white text-violet-700 shadow-violet-200 w-48 absolute right-0 bottom-1/3 hidden lg:flex">
+				<Badge className="bg-white !text-violet-700 shadow-violet-200 w-48 absolute right-0 bottom-1/3 hidden lg:flex">
 					<svg
 						width="24"
 						height="24"

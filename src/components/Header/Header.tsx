@@ -12,7 +12,7 @@ export default function Header() {
 					</figure>
 				</a>
 				<div className="flex gap-4">
-					<Button className="bg-white text-violet-700 border-violet-100">
+					<Button className="bg-white !text-violet-700 border-violet-100">
 						Login
 					</Button>
 					<Button>Sign Up</Button>

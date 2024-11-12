@@ -7,7 +7,7 @@ import heroThumb3 from '../../assets/images/hero-thumb-3.png';
 
 export default function Hero() {
 	return (
-		<section className="overflow-hidden">
+		<section>
 			<div className="container 2xl:max-w-screen-xl py-8 flex flex-col-reverse lg:flex-row items-center justify-between">
 				<div className="grid gap-y-11 lg:w-5/12 -mt-28 lg:-mt-0 z-10">
 					<Badge className="bg-white shadow-pink-100 w-64">

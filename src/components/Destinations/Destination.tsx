@@ -5,19 +5,22 @@ import 'swiper/swiper-bundle.css';
 import thumb1 from '../../assets/images/destination-1.png';
 import thumb2 from '../../assets/images/destination-2.png';
 import thumb3 from '../../assets/images/destination-3.png';
+import thumb4 from '../../assets/images/destination-4.jpg';
+import thumb5 from '../../assets/images/destination-5.jpg';
+import thumb6 from '../../assets/images/destination-6.jpg';
 import star from '../../assets/images/star.svg';
 import backgroundElem from '../../assets/images/destination-bg.svg';
 
 export default function Destinations() {
 	return (
-		<section className="mt-16 relative">
+		<section className="my-32 relative">
 			<img
 				src={backgroundElem}
 				alt="Destination Background"
 				className="absolute right-0 top-0 translate-y-full"
 			/>
 			<div className="container 2xl:max-w-screen-xl">
-				<div className="font-bold">
+				<div className="font-bold mb-16">
 					<h4 className="text-pink-500 text-2xl uppercase mb-4">
 						Top Destination
 					</h4>
@@ -25,25 +28,28 @@ export default function Destinations() {
 				</div>
 				<Swiper
 					modules={[Autoplay, Navigation, A11y]}
-					slidesPerView={4}
+					breakpoints={{
+						575: { slidesPerView: 2 },
+						1024: { slidesPerView: 3 },
+						1280: { slidesPerView: 4 },
+					}}
 					spaceBetween={20}
 					loop={true}
-					// autoplay={{
-					// 	delay: 8000,
-					// 	disableOnInteraction: false,
-					// }}
-					// autoHeight={true}
+					autoplay={{
+						delay: 3000,
+						disableOnInteraction: false,
+					}}
 					navigation
 				>
 					<SwiperSlide>
 						<a
 							href="#"
-							className="grid bg-white shadow-2xl shadow-violet-100 border border-violet-50 rounded-3xl overflow-hidden"
+							className="grid bg-white border border-violet-50 rounded-3xl overflow-hidden"
 						>
 							<img
 								src={thumb1}
 								alt="Destination thumbnail"
-								className="w-full object-contain"
+								className="w-full h-72 object-fill"
 							/>
 							<div className="p-6 grid gap-3">
 								<h4 className="text-xl font-bold">
@@ -65,15 +71,17 @@ export default function Destinations() {
 					<SwiperSlide>
 						<a
 							href="#"
-							className="grid bg-white shadow-2xl shadow-violet-100 border border-violet-50 rounded-3xl overflow-hidden"
+							className="grid bg-white border border-violet-50 rounded-3xl overflow-hidden"
 						>
 							<img
 								src={thumb2}
 								alt="Destination thumbnail"
-								className="w-full object-contain"
+								className="w-full h-72 object-fill"
 							/>
 							<div className="p-6 grid gap-3">
-								<h4 className="text-xl font-bold">Ocean with full of Colors</h4>
+								<h4 className="text-xl font-bold">
+									Ocean with full of Mermid Colors
+								</h4>
 								<p className="font-bold text-pink-500">$20.99</p>
 								<p className="text-gray-500 text-sm">Maldives</p>
 								<div className="flex gap-2 items-center font-bold mt-1">
@@ -90,12 +98,12 @@ export default function Destinations() {
 					<SwiperSlide>
 						<a
 							href="#"
-							className="grid bg-white shadow-2xl shadow-violet-100 border border-violet-50 rounded-3xl overflow-hidden"
+							className="grid bg-white border border-violet-50 rounded-3xl overflow-hidden"
 						>
 							<img
 								src={thumb3}
 								alt="Destination thumbnail"
-								className="w-full object-contain"
+								className="w-full h-72 object-fill"
 							/>
 							<div className="p-6 grid gap-3">
 								<h4 className="text-xl font-bold">
@@ -105,6 +113,87 @@ export default function Destinations() {
 								<p className="text-gray-500 text-sm">Nepal</p>
 								<div className="flex gap-2 items-center font-bold mt-1">
 									<p>4.9</p>
+									<img
+										src={star}
+										alt="Star"
+										className="w-5 h-5 object-contain"
+									/>
+								</div>
+							</div>
+						</a>
+					</SwiperSlide>
+					<SwiperSlide>
+						<a
+							href="#"
+							className="grid bg-white border border-violet-50 rounded-3xl overflow-hidden"
+						>
+							<img
+								src={thumb4}
+								alt="Destination thumbnail"
+								className="w-full h-72 object-fill"
+							/>
+							<div className="p-6 grid gap-3">
+								<h4 className="text-xl font-bold">
+									A blend of tradition and modernity
+								</h4>
+								<p className="font-bold text-pink-500">$200.50</p>
+								<p className="text-gray-500 text-sm">Tokyo, Japan</p>
+								<div className="flex gap-2 items-center font-bold mt-1">
+									<p>4.7</p>
+									<img
+										src={star}
+										alt="Star"
+										className="w-5 h-5 object-contain"
+									/>
+								</div>
+							</div>
+						</a>
+					</SwiperSlide>
+					<SwiperSlide>
+						<a
+							href="#"
+							className="grid bg-white border border-violet-50 rounded-3xl overflow-hidden"
+						>
+							<img
+								src={thumb5}
+								alt="Destination thumbnail"
+								className="w-full h-72 object-fill"
+							/>
+							<div className="p-6 grid gap-3">
+								<h4 className="text-xl font-bold">
+									Serene beaches and lush rice terraces
+								</h4>
+								<p className="font-bold text-pink-500">$100.00</p>
+								<p className="text-gray-500 text-sm">Bali, Indonesia</p>
+								<div className="flex gap-2 items-center font-bold mt-1">
+									<p>4.4</p>
+									<img
+										src={star}
+										alt="Star"
+										className="w-5 h-5 object-contain"
+									/>
+								</div>
+							</div>
+						</a>
+					</SwiperSlide>
+					<SwiperSlide>
+						<a
+							href="#"
+							className="grid bg-white border border-violet-50 rounded-3xl overflow-hidden"
+						>
+							<img
+								src={thumb6}
+								alt="Destination thumbnail"
+								className="w-full h-72 object-fill"
+							/>
+							<div className="p-6 grid gap-3">
+								<h4 className="text-xl font-bold">
+									The Eiffel Tower and Louvre Museum.
+								</h4>
+								<p className="font-bold text-pink-500">$450.33</p>
+								<p className="text-gray-500 text-sm">Paris, France</p>
+								<div className="flex gap-2 items-center font-bold mt-1">
+									<p>4.2</p>
 									<img
 										src={star}
 										alt="Star"

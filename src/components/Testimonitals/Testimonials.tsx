@@ -12,7 +12,7 @@ export default function Testimonials() {
 		<section className="relative min-h-screen">
 			<img
 				src={testimonialBg}
-				alt=""
+				alt="Testimonial Background"
 				className="absolute w-full h-auto left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 opacity-10"
 			/>
 			<div className="container 2xl:max-w-screen-xl relative">

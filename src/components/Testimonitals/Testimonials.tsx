@@ -1,7 +1,6 @@
-import { Autoplay, Pagination, A11y } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
-import './testimonial.css';
 
 import testimonialBg from '../../assets/images/testimonial-bg.svg';
 import avatar1 from '../../assets/images/avatar-1.svg';
@@ -23,7 +22,7 @@ export default function Testimonials() {
 				<p className="text-4xl font-bold text-center">Trust our clients</p>
 
 				<Swiper
-					modules={[Autoplay, Pagination, A11y]}
+					modules={[Autoplay, Pagination, Navigation, A11y]}
 					loop={true}
 					autoplay={{
 						delay: 8000,
@@ -31,6 +30,7 @@ export default function Testimonials() {
 					}}
 					autoHeight={true}
 					pagination={{ clickable: true }}
+					navigation
 				>
 					<SwiperSlide>
 						<div className="grid gap-10 py-16">

@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+div.swiper-button-prev,
+div.swiper-button-next {
+	@apply bg-white hover:bg-violet-700 w-16 h-16 shadow-xl hover:shadow-violet-200 border-violet-100 transition-all rounded-full;
+	&:after {
+		@apply text-sm text-violet-700;
+	}
+	&:hover {
+		&:after {
+			@apply text-white;
+		}
+	}
+}
+
+.swiper-pagination-bullet {
+	--swiper-pagination-bullet-width: 1rem;
+	--swiper-pagination-bullet-height: 1rem;
+}
+
+.swiper-pagination-bullet-active {
+	--swiper-pagination-color: theme('colors.pink.500');
+}

@@ -18,8 +18,9 @@ div.swiper-button-next {
 .swiper-pagination-bullet {
 	--swiper-pagination-bullet-width: 1rem;
 	--swiper-pagination-bullet-height: 1rem;
+	--swiper-pagination-bullet-inactive-color: theme(colors.violet.300);
 }
 
 .swiper-pagination-bullet-active {
-	--swiper-pagination-color: theme('colors.pink.500');
+	--swiper-pagination-color: theme(colors.pink.500);
 }

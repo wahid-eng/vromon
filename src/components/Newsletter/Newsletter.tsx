@@ -29,7 +29,7 @@ export default function Newsletter() {
 					>
 						<input
 							type="text"
-							className="bg-white shadow rounded-full flex-1 px-8 py-4 md:py-3 placeholder:text-gray-500 font-bold focus:outline-none focus:shadow-2xl"
+							className="bg-white shadow rounded-full flex-1 px-8 py-4 md:py-3 placeholder:text-gray-500 font-bold focus:outline-none focus:shadow-xl transition-shadow"
 							placeholder="Email address"
 						/>
 						<Button

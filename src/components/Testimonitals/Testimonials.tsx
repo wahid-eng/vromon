@@ -44,8 +44,8 @@ export default function Testimonials() {
 								Enthusiast
 							</h4>
 							<div className="flex gap-3 justify-center">
-								{[...Array(5).keys()].map((item) => (
-									<img src={star} alt="Star" key={item} />
+								{Array.from({ length: 5 }).map((_, i) => (
+									<img src={star} alt="Star" key={i} />
 								))}
 							</div>
 							<blockquote className="lg:w-2/3 mx-auto mb-8 text-center">
@@ -68,8 +68,8 @@ export default function Testimonials() {
 								<span className="text-orange-500">Zio Len</span> / Businessman
 							</h4>
 							<div className="flex gap-3 justify-center">
-								{[...Array(5).keys()].map((item) => (
-									<img src={star} alt="Star" key={item} />
+								{Array.from({ length: 5 }).map((_, i) => (
+									<img src={star} alt="Star" key={i} />
 								))}
 							</div>
 							<blockquote className="lg:w-2/3 mx-auto mb-8 text-center">

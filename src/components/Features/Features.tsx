@@ -29,7 +29,7 @@ export default function Features() {
 								width="100"
 								height="100"
 								rx="32"
-								className="fill-orange-500"
+								className="fill-yellow-400"
 							/>
 							<path
 								fill-rule="evenodd"

@@ -122,9 +122,9 @@ export default function Hero() {
 						viewBox="0 0 64 64"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
-						className="absolute left-1/2 bottom-20 hidden lg:block shadow-2xl shadow-orange-300 rounded-full"
+						className="absolute left-1/2 bottom-20 hidden lg:block shadow-2xl shadow-yellow-100 rounded-full"
 					>
-						<rect width="64" height="64" rx="32" className="fill-orange-500" />
+						<rect width="64" height="64" rx="32" className="fill-yellow-400" />
 						<path
 							fillRule="evenodd"
 							clipRule="evenodd"

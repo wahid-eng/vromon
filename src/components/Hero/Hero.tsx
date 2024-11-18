@@ -1,9 +1,9 @@
 import Badge from '../Badge/Badge';
 import Button from '../Button/Button';
 import heroBg from '../../assets/images/hero-bg.svg';
-import heroThumb1 from '../../assets/images/hero-thumb-1.png';
-import heroThumb2 from '../../assets/images/hero-thumb-2.png';
-import heroThumb3 from '../../assets/images/hero-thumb-3.png';
+import heroThumb1 from '../../assets/images/hero-thumb-1.webp';
+import heroThumb2 from '../../assets/images/hero-thumb-2.webp';
+import heroThumb3 from '../../assets/images/hero-thumb-3.webp';
 
 export default function Hero() {
 	return (
@@ -59,6 +59,7 @@ export default function Hero() {
 						src={heroBg}
 						alt="Hero Background"
 						className="lg:absolute lg:top-0 lg:left-1/2 lg:-translate-x-1/2 lg:-z-10 max-w-sm md:max-w-md lg:max-w-full"
+						loading="lazy"
 					/>
 					<div className="items-center justify-center gap-8 hidden lg:flex">
 						<div className="flex flex-col gap-8">
@@ -66,14 +67,21 @@ export default function Hero() {
 								src={heroThumb1}
 								alt="Hero Thumb 1"
 								className="rounded-3xl"
+								loading="lazy"
 							/>
 							<img
 								src={heroThumb2}
 								alt="Hero Thumb 2"
 								className="rounded-3xl"
+								loading="lazy"
 							/>
 						</div>
-						<img src={heroThumb3} alt="Hero Thumb 3" className="rounded-3xl" />
+						<img
+							src={heroThumb3}
+							alt="Hero Thumb 3"
+							className="rounded-3xl"
+							loading="lazy"
+						/>
 					</div>
 					<Badge className="bg-white !text-violet-700 shadow-violet-200 w-48 absolute right-0 bottom-1/3 hidden lg:flex">
 						<svg

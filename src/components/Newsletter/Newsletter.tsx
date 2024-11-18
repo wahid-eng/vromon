@@ -9,12 +9,14 @@ export default function Newsletter() {
 				src={bgElem2}
 				alt="Spiral"
 				className="absolute right-0 bottom-0 translate-y-1/2"
+				loading="lazy"
 			/>
 			<div className="container 2xl:max-w-screen-xl relative">
 				<img
 					src={bgElem1}
 					alt="Dotted Triangle"
 					className="absolute inset-0 -translate-x-3 -translate-y-6"
+					loading="lazy"
 				/>
 				<div className="bg-[#FACD49] bg-opacity-10 py-32 px-16">
 					<h4 className="text-pink-500 text-2xl uppercase font-bold text-center mb-4">

@@ -8,7 +8,7 @@ export default function Header() {
 			<div className="container 2xl:max-w-screen-xl py-8 flex items-center justify-between">
 				<a href="#">
 					<figure>
-						<img src={vromonLogo} alt="Vromon Logo" />
+						<img src={vromonLogo} alt="Vromon Logo" loading="lazy" />
 					</figure>
 				</a>
 				<div className="flex gap-4">

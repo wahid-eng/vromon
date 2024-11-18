@@ -6,7 +6,7 @@ export default function Footer() {
 			<div className="container 2xl:max-w-screen-xl py-20 flex flex-col md:flex-row md:flex-wrap gap-y-12 md:gap-8 justify-between">
 				<div className="lg:w-1/3">
 					<figure>
-						<img src={vromonLogo} alt="Vromon Logo" />
+						<img src={vromonLogo} alt="Vromon Logo" loading="lazy" />
 					</figure>
 					<p className="mt-8">
 						Contrary to popular belief, Lorem Ipsum is not simply random text.

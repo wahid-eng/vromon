@@ -1,6 +1,6 @@
 import Badge from '../Badge/Badge';
-import featureThumb1 from '../../assets/images/feature-1.png';
-import featureThumb2 from '../../assets/images/feature-2.png';
+import featureThumb1 from '../../assets/images/feature-1.webp';
+import featureThumb2 from '../../assets/images/feature-2.webp';
 import featureBg from '../../assets/images/feature-bg.svg';
 
 export default function Features() {
@@ -105,16 +105,19 @@ export default function Features() {
 						src={featureThumb1}
 						alt="Feature Thumb 1"
 						className="rounded-full w-68 h-96 absolute right-1/2 top-0 z-10"
+						loading="lazy"
 					/>
 					<img
 						src={featureThumb2}
 						alt="Feature Thumb 2"
 						className="rounded-full w-68 h-96 absolute right-1/2 translate-x-1/2 top-24 border-[1rem] border-white z-20"
+						loading="lazy"
 					/>
 					<img
 						src={featureBg}
 						alt="Feature Background"
 						className="w-72 absolute right-0 top-0"
+						loading="lazy"
 					/>
 					<Badge className="bg-white !text-orange-500 shadow-orange-100 w-56 absolute right-0 top-1/2 z-30">
 						<svg

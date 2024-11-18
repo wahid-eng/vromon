@@ -2,12 +2,12 @@ import { Autoplay, Navigation, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 
-import thumb1 from '../../assets/images/destination-1.png';
-import thumb2 from '../../assets/images/destination-2.png';
-import thumb3 from '../../assets/images/destination-3.png';
-import thumb4 from '../../assets/images/destination-4.jpg';
-import thumb5 from '../../assets/images/destination-5.jpg';
-import thumb6 from '../../assets/images/destination-6.jpg';
+import thumb1 from '../../assets/images/destination-1.webp';
+import thumb2 from '../../assets/images/destination-2.webp';
+import thumb3 from '../../assets/images/destination-3.webp';
+import thumb4 from '../../assets/images/destination-4.webp';
+import thumb5 from '../../assets/images/destination-5.webp';
+import thumb6 from '../../assets/images/destination-6.webp';
 import star from '../../assets/images/star.svg';
 import backgroundElem from '../../assets/images/destination-bg.svg';
 
@@ -18,6 +18,7 @@ export default function Destinations() {
 				src={backgroundElem}
 				alt="Destination Background"
 				className="absolute right-0 top-0 translate-y-full"
+				loading="lazy"
 			/>
 			<div className="container 2xl:max-w-screen-xl">
 				<div className="font-bold mb-16">
@@ -50,6 +51,7 @@ export default function Destinations() {
 								src={thumb1}
 								alt="Destination thumbnail"
 								className="w-full h-72 object-fill"
+								loading="lazy"
 							/>
 							<div className="p-6 grid gap-3">
 								<h4 className="text-xl font-bold">
@@ -63,6 +65,7 @@ export default function Destinations() {
 										src={star}
 										alt="Star"
 										className="w-5 h-5 object-contain"
+										loading="lazy"
 									/>
 								</div>
 							</div>
@@ -77,6 +80,7 @@ export default function Destinations() {
 								src={thumb2}
 								alt="Destination thumbnail"
 								className="w-full h-72 object-fill"
+								loading="lazy"
 							/>
 							<div className="p-6 grid gap-3">
 								<h4 className="text-xl font-bold">
@@ -90,6 +94,7 @@ export default function Destinations() {
 										src={star}
 										alt="Star"
 										className="w-5 h-5 object-contain"
+										loading="lazy"
 									/>
 								</div>
 							</div>
@@ -104,6 +109,7 @@ export default function Destinations() {
 								src={thumb3}
 								alt="Destination thumbnail"
 								className="w-full h-72 object-fill"
+								loading="lazy"
 							/>
 							<div className="p-6 grid gap-3">
 								<h4 className="text-xl font-bold">
@@ -117,6 +123,7 @@ export default function Destinations() {
 										src={star}
 										alt="Star"
 										className="w-5 h-5 object-contain"
+										loading="lazy"
 									/>
 								</div>
 							</div>
@@ -131,6 +138,7 @@ export default function Destinations() {
 								src={thumb4}
 								alt="Destination thumbnail"
 								className="w-full h-72 object-fill"
+								loading="lazy"
 							/>
 							<div className="p-6 grid gap-3">
 								<h4 className="text-xl font-bold">
@@ -144,6 +152,7 @@ export default function Destinations() {
 										src={star}
 										alt="Star"
 										className="w-5 h-5 object-contain"
+										loading="lazy"
 									/>
 								</div>
 							</div>
@@ -158,6 +167,7 @@ export default function Destinations() {
 								src={thumb5}
 								alt="Destination thumbnail"
 								className="w-full h-72 object-fill"
+								loading="lazy"
 							/>
 							<div className="p-6 grid gap-3">
 								<h4 className="text-xl font-bold">
@@ -171,6 +181,7 @@ export default function Destinations() {
 										src={star}
 										alt="Star"
 										className="w-5 h-5 object-contain"
+										loading="lazy"
 									/>
 								</div>
 							</div>
@@ -185,6 +196,7 @@ export default function Destinations() {
 								src={thumb6}
 								alt="Destination thumbnail"
 								className="w-full h-72 object-fill"
+								loading="lazy"
 							/>
 							<div className="p-6 grid gap-3">
 								<h4 className="text-xl font-bold">
@@ -198,6 +210,7 @@ export default function Destinations() {
 										src={star}
 										alt="Star"
 										className="w-5 h-5 object-contain"
+										loading="lazy"
 									/>
 								</div>
 							</div>

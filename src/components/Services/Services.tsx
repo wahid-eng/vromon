@@ -16,6 +16,7 @@ export default function Services() {
 							src={service1}
 							alt="Tour Icon"
 							className="w-12 h-12 object-contain mx-auto"
+							loading="lazy"
 						/>
 						<h4 className="font-bold text-xl">Best Tour Guide</h4>
 						<div className="block bg-pink-500 h-[1px] w-1/6 mx-auto"></div>
@@ -28,6 +29,7 @@ export default function Services() {
 							src={service2}
 							alt="Booking Icon"
 							className="w-12 h-12 object-contain mx-auto"
+							loading="lazy"
 						/>
 						<h4 className="font-bold text-xl">Easy Booking</h4>
 						<div className="block bg-pink-500 h-[1px] w-1/6 mx-auto"></div>
@@ -40,6 +42,7 @@ export default function Services() {
 							src={service3}
 							alt="Tour Icon"
 							className="w-12 h-12 object-contain mx-auto"
+							loading="lazy"
 						/>
 						<h4 className="font-bold text-xl">Weather Forecast</h4>
 						<div className="block bg-pink-500 h-[1px] w-1/6 mx-auto"></div>

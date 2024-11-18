@@ -14,6 +14,7 @@ export default function Testimonials() {
 				src={testimonialBg}
 				alt="Testimonial Background"
 				className="absolute w-full h-auto left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 opacity-10"
+				loading="lazy"
 			/>
 			<div className="container 2xl:max-w-screen-xl relative">
 				<h4 className="text-pink-500 text-2xl uppercase font-bold text-center mb-4">
@@ -38,6 +39,7 @@ export default function Testimonials() {
 								src={avatar1}
 								alt="Mark Smith"
 								className="w-24 h-24 object-contain mx-auto"
+								loading="lazy"
 							/>
 							<h4 className="text-xl text-center font-bold text-gray-500">
 								<span className="text-orange-500">Mark Smith</span> / Travel
@@ -45,7 +47,7 @@ export default function Testimonials() {
 							</h4>
 							<div className="flex gap-3 justify-center">
 								{Array.from({ length: 5 }).map((_, i) => (
-									<img src={star} alt="Star" key={i} />
+									<img src={star} alt="Star" key={i} loading="lazy" />
 								))}
 							</div>
 							<blockquote className="lg:w-2/3 mx-auto mb-8 text-center">
@@ -63,13 +65,14 @@ export default function Testimonials() {
 								src={avatar2}
 								alt="Mark Smith"
 								className="w-24 h-24 object-contain mx-auto"
+								loading="lazy"
 							/>
 							<h4 className="text-xl text-center font-bold text-gray-500">
 								<span className="text-orange-500">Zio Len</span> / Businessman
 							</h4>
 							<div className="flex gap-3 justify-center">
 								{Array.from({ length: 5 }).map((_, i) => (
-									<img src={star} alt="Star" key={i} />
+									<img src={star} alt="Star" key={i} loading="lazy" />
 								))}
 							</div>
 							<blockquote className="lg:w-2/3 mx-auto mb-8 text-center">

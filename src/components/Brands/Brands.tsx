@@ -12,13 +12,39 @@ export default function Brands() {
 				src={brandBg}
 				alt="Triangles"
 				className="absolute top-1/2 left-0 translate-x-8 -translate-y-1/2 hidden md:block"
+				loading="lazy"
 			/>
 			<div className="container 2xl:max-w-screen-xl py-20 flex flex-wrap gap-8 justify-center lg:justify-between">
-				<img src={brand1} alt="Tripadvisor" className="w-32 h-12" />
-				<img src={brand2} alt="Tripadvisor" className="w-32 h-12" />
-				<img src={brand3} alt="Tripadvisor" className="w-32 h-12" />
-				<img src={brand4} alt="Tripadvisor" className="w-32 h-12" />
-				<img src={brand5} alt="Tripadvisor" className="w-32 h-12" />
+				<img
+					src={brand1}
+					alt="Tripadvisor"
+					className="w-32 h-12"
+					loading="lazy"
+				/>
+				<img
+					src={brand2}
+					alt="Tripadvisor"
+					className="w-32 h-12"
+					loading="lazy"
+				/>
+				<img
+					src={brand3}
+					alt="Tripadvisor"
+					className="w-32 h-12"
+					loading="lazy"
+				/>
+				<img
+					src={brand4}
+					alt="Tripadvisor"
+					className="w-32 h-12"
+					loading="lazy"
+				/>
+				<img
+					src={brand5}
+					alt="Tripadvisor"
+					className="w-32 h-12"
+					loading="lazy"
+				/>
 			</div>
 		</section>
 	);

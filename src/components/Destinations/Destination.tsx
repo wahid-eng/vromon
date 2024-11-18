@@ -21,7 +21,7 @@ export default function Destinations() {
 				loading="lazy"
 			/>
 			<div className="container 2xl:max-w-screen-xl">
-				<div className="font-bold mb-16">
+				<div className="font-bold mb-16 text-center xl:text-start">
 					<h4 className="text-pink-500 text-2xl uppercase mb-4">
 						Top Destination
 					</h4>

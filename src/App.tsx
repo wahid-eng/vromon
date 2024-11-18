@@ -8,6 +8,7 @@ import Hero from './components/Hero/Hero';
 import Newsletter from './components/Newsletter/Newsletter';
 import Services from './components/Services/Services';
 import Testimonials from './components/Testimonitals/Testimonials';
+import Travelpoint from './components/Travelpoint/Travelpoint';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Brands />
 			<Services />
 			<Destinations />
+			<Travelpoint />
 			<Features />
 			<Testimonials />
 			<Newsletter />

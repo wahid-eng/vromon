@@ -18,7 +18,7 @@ export default function Newsletter() {
 					className="absolute inset-0 -translate-x-3 -translate-y-6"
 					loading="lazy"
 				/>
-				<div className="bg-[#FACD49] bg-opacity-10 py-32 px-16">
+				<div className="bg-[#FACD49] bg-opacity-10 py-32 px-4 sm:px-16">
 					<h4 className="text-pink-500 text-2xl uppercase font-bold text-center mb-4">
 						Subscribe to our newsletter
 					</h4>

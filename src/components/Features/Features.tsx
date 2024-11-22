@@ -6,7 +6,7 @@ import featureBg from '../../assets/images/feature-bg.svg';
 export default function Features() {
 	return (
 		<section>
-			<div className="container 2xl:max-w-screen-xl flex flex-col lg:flex-row items-center justify-between gap-20 mb-32">
+			<div className="container 2xl:max-w-screen-xl flex flex-col lg:flex-row items-center justify-between gap-20 mb-28">
 				<div className="lg:w-1/2 text-center lg:text-start">
 					<h4 className="text-pink-500 text-2xl uppercase mb-4 font-bold">
 						Key features
@@ -17,10 +17,9 @@ export default function Features() {
 						It has roots in a piece of classical Latin literature from 45 BC.
 					</p>
 
-					<div className="flex items-center text-start gap-5 border border-violet-50 p-6 rounded-3xl shadow-xl shadow-violet-100 mt-8">
+					<div className="flex flex-col sm:flex-row items-center text-center sm:text-start gap-5 border border-violet-50 p-6 rounded-3xl shadow-xl shadow-violet-100 mt-8">
 						<svg
-							width="64"
-							height="64"
+							className="w-12 h-12 sm:w-16 sm:h-16"
 							viewBox="0 0 100 100"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
@@ -44,10 +43,9 @@ export default function Features() {
 						</div>
 					</div>
 
-					<div className="flex items-center text-start gap-5 border border-violet-50 p-6 rounded-3xl shadow-xl shadow-violet-100 mt-8">
+					<div className="flex flex-col sm:flex-row items-center text-center sm:text-start gap-5 border border-violet-50 p-6 rounded-3xl shadow-xl shadow-violet-100 mt-8">
 						<svg
-							width="64"
-							height="64"
+							className="w-12 h-12 sm:w-16 sm:h-16"
 							viewBox="0 0 100 100"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
@@ -72,10 +70,9 @@ export default function Features() {
 						</div>
 					</div>
 
-					<div className="flex items-center text-start gap-5 border border-violet-50 p-6 rounded-3xl shadow-xl shadow-violet-100 mt-8">
+					<div className="flex flex-col sm:flex-row items-center text-center sm:text-start gap-5 border border-violet-50 p-6 rounded-3xl shadow-xl shadow-violet-100 mt-8">
 						<svg
-							width="64"
-							height="64"
+							className="w-12 h-12 sm:w-16 sm:h-16"
 							viewBox="0 0 100 100"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"

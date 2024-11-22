@@ -15,7 +15,7 @@ export default function Header() {
 					<Button className="bg-white !text-violet-700 border-violet-100">
 						Login
 					</Button>
-					<Button>Sign Up</Button>
+					<Button className="hidden sm:inline-flex">Sign Up</Button>
 				</div>
 			</div>
 		</header>
